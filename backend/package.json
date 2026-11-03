@@ -1,0 +1,31 @@
+{
+  "name": "studentfacaulty_api_assignment",
+  "version": "1.0.0",
+  "description": "api that have a login,signup, and get details of the student and faculty users from backend db",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavanKumaarM/studentFacaulty_api_assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PavanKumaarM/studentFacaulty_api_assignment/issues"
+  },
+  "homepage": "https://github.com/PavanKumaarM/studentFacaulty_api_assignment#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.4",
+    "nodemon": "^3.1.14"
+  }
+}
